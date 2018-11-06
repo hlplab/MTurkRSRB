@@ -1,0 +1,18 @@
+resultsfiles:
+  - file: /path/to/experiment/results.csv
+    experimenter: Some Experimenter
+    name: An Experiment
+  - file: /path/to/another/experiment/results.csv
+    delimiter: comma
+    experimenter: Different Experimenter
+    name: Another Experiment
+
+protocol: irb123456
+datebreaks:
+  2017-2018:
+    start: 2017-01-01
+    end: 2017-12-31
+  2018-2019:
+    start: 2018-01-01
+    end: 2018-12-31
+
