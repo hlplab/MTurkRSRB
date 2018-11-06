@@ -5,4 +5,6 @@ This script reads in Mechanical Turk results files with HLP Lab demographic fiel
 python demographic_report.py -r examplefile.yml
 ```
 
+Minimum Python version is 3.6 due to f-strings and type annotations.
+
 There is an example YAML file with fake data in it to show what the expected input file should be like.
